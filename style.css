@@ -5,3 +5,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: darkgrey; 
+  color: lightgrey;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 80%;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background: #747474;
+  background-image: linear-gradient(to right, #272727, darkgrey);
+  width: 100%;
+  -webkit-text-stroke: 1px #ff652f;
+}
