@@ -105,7 +105,7 @@ body {
   transform: scale(1);
   color: orange;
 }
-type="checkbox"]:checked + label .custom-checkbox {
+[type="checkbox"]:checked + label .custom-checkbox {
   transform: scale(1);
   color: orange;
   opacity: 0.6; 
@@ -144,6 +144,20 @@ type="checkbox"]:checked + label .custom-checkbox {
   z-index: 1;
 }
 
-.test-css__autocomplete {
-  color: blue;
+/* will work on responsiveness  */
+/* @media (max-width:800px){
+  .task-list-wrapper{
+    flex: 50%;
+  }
+}
+
+@media (max-width:420px){
+  .task-list-wrapper{
+    flex: 100%;
+  }
+} */
+@media(max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
